@@ -1,0 +1,30 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  border: 0;
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 200px;
+  background-color: tomato;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+img {
+  border-radius: 10px;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
