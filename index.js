@@ -14,7 +14,7 @@ const clearGif = () => {
 
 const getCatGif = async () => {
   const response = await fetch(
-    "http://api.giphy.com/v1/gifs/random?rating=g&tag=cat&api_key=ylFpggYt27WBqRTAghDTKTbdV8hn2Mwh&limit=1"
+    "https://api.giphy.com/v1/gifs/random?rating=g&tag=cat&api_key=ylFpggYt27WBqRTAghDTKTbdV8hn2Mwh&limit=1"
   );
   const jsonResult = await response.json();
   return jsonResult;
