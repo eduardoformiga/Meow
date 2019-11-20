@@ -1,7 +1,6 @@
 const generateGifCat = async () => {
   clearGif();
   const jsonResult = await getCatGif();
-  console.log(jsonResult);
   showGif(jsonResult);
 };
 

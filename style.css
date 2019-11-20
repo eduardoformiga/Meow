@@ -1,14 +1,23 @@
-html {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  height: 100vh;
 }
 
 body {
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 1em;
+}
+
+h1 {
+  margin-bottom: 20px;
 }
 
 button {
@@ -23,8 +32,11 @@ button {
   cursor: pointer;
 }
 
+button:focus {
+  outline: none;
+}
+
 img {
   border-radius: 10px;
   opacity: 0;
-  transition: all 0.5s ease;
 }
